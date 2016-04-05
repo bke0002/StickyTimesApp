@@ -1,0 +1,35 @@
+@startuml
+
+Fix <|- Sighting
+
+class Sighting {
+body
+date
+time
+altitude
+height
+temperature
+pressure
+artificialHorizon
++Sighting(member definitions)
++getBody()
++getDate()
++getTime()
++getAltitude()
++getHeight()
++getTemperature()
++getPressure()
++isArtificialHorizon()
++getAltitudeCorrection()
+-calculateDip()
+-calculateRefractionFactor()
+-calculateRefractionAmount()
+}
+
+class Fix {
++Fix()
++getSightings(file): List Sighting
+}
+
+
+@enduml

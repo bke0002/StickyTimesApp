@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">StickyTimes</string>
+
+    <string name="new_timer_button">New Timer</string>
+    <string name="old_timers_button">Old Timers</string>
+    <string name="title_text">Sticky\nTimes</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">Title Activity</string>
+</resources>
